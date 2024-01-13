@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <div className="bg-background flex items-center justify-left px-8 py-2">
+    <div className="bg-background flex items-center justify-left px-8 py-2 w-full fixed z-10">
       <span>
         <Image src={"/Global/Logo.png"} width={90} height={50} alt={"logo"} />
       </span>
