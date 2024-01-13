@@ -6,7 +6,7 @@ import Footer from "@/Components/global/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Planet X Inc.",
+  title: "Planet X Inc Ltd.",
   description: "We create digital solutions",
 };
 
