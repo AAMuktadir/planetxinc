@@ -4,20 +4,20 @@ export default function SmartDevelopment() {
   return (
     <>
       <div className="bg-background py-20">
-        <section className="px-28">
-          <h3 className="text-white text-8xl">SMART DEVELOPMENT</h3>
+        <section className="px-4 sm:px-28">
+          <h3 className="text-white text-4xl sm:text-8xl">SMART DEVELOPMENT</h3>
         </section>
 
-        <section className="px-20 py-20">
+        <section className="px-4 sm:px-20 py-20">
           <div className="border-0 rounded-full w-full bg-darkBG py-40">
-            <h4 className="text-white font-bold text-4xl text-center">
+            <h4 className="text-white font-bold text-sm sm:text-4xl text-center">
               Animation of BORI will be placed here
             </h4>
           </div>
         </section>
 
         <section className="border-t border-white flex justify-center items-center pb-12">
-          <span className="w-[450px] pt-8 text-white">
+          <span className="px-4 sm:px-0 w-full sm:w-[450px] pt-8 text-white">
             <h3 className="-skew-x-12">SMART DEVELOPMENT</h3>
             Combining unique design and rich technology, we build digital
             products exactly as they were designed, without shortcuts or
@@ -25,7 +25,7 @@ export default function SmartDevelopment() {
           </span>
         </section>
         <section className="flex justify-center items-center">
-          <div className="w-[450px]">
+          <div className="px-4 sm:px-0 w-full sm:w-[450px]">
             <h3 className="-skew-x-12 text-white">AREAS</h3>
             <div className="flex flex-wrap gap-4 pt-2">
               <span className="px-2 border border-white text-white rounded-full">

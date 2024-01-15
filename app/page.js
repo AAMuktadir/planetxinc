@@ -8,6 +8,7 @@ import BrandIdentities from "@/Components/home/brandIdentities";
 import ArtDirection from "@/Components/home/artDirection";
 import InHouseSolutions from "@/Components/home/inHouseSolutions";
 import CoolestProjects from "@/Components/home/coolestProjects";
+import DevelopmentTools from "@/Components/home/developmentTools";
 
 export default function Home() {
   const [banner, setbanner] = useState(true);
@@ -23,6 +24,7 @@ export default function Home() {
         <ArtDirection />
         <InHouseSolutions />
         <CoolestProjects />
+        <DevelopmentTools />
       </div>
     </main>
   );

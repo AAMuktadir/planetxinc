@@ -6,13 +6,15 @@ export default function CoolestProjects() {
   return (
     <>
       <div className="bg-[url('/image/CoolestProject.jpeg')] bg-cover bg-no-repeat bg-center h-full w-full">
-        <section className="py-32 px-28">
-          <h3 className="text-white text-8xl">OUR COOLEST PROJECTS</h3>
+        <section className="py-32 px-4 sm:px-28">
+          <h3 className="text-white text-5xl sm:text-8xl">
+            OUR COOLEST PROJECTS
+          </h3>
         </section>
         <div className="px-4">
-          <section className="bg-[url('/image/ProjectCase1.jpeg')] bg-cover bg-no-repeat bg-center h-full w-full py-40 rounded-t-3xl">
+          <section className="bg-[url('/image/ProjectCase1.jpeg')] bg-cover bg-no-repeat bg-center h-full w-full py-20 sm:py-40 rounded-t-3xl">
             <Marquee>
-              <p className="flex gap-4 items-center justify-center text-9xl text-white">
+              <p className="flex gap-4 items-center justify-center text-5xl sm:text-9xl text-white">
                 View case
                 <Image
                   src={"/image/caseIcon.png"}
@@ -26,9 +28,9 @@ export default function CoolestProjects() {
         </div>
       </div>
       <div className="bg-background py-16 px-4">
-        <section className="bg-[url('/image/ProjectCase2.jpeg')] bg-cover bg-no-repeat bg-center h-full w-full py-40 rounded-t-3xl">
+        <section className="bg-[url('/image/ProjectCase2.jpeg')] bg-cover bg-no-repeat bg-center h-full w-full py-20 sm:py-40 rounded-t-3xl">
           <Marquee>
-            <p className="flex gap-4 items-center justify-center text-9xl text-white">
+            <p className="flex gap-4 items-center justify-center text-4xl sm:text-9xl text-white">
               View case
               <Image
                 src={"/image/caseIcon.png"}
@@ -41,8 +43,8 @@ export default function CoolestProjects() {
         </section>
       </div>
 
-      <div className="bg-background py-16 flex items-center justify-end pr-20 border-b border-white">
-        <p className="text-footer -skew-x-12 w-80">
+      <div className="bg-background py-16 flex items-center justify-end sm:pr-20 border-b border-white px-4 sm:px-0">
+        <p className="text-footer -skew-x-12 sm:w-80">
           WE THINK AND SPEAK MAINLY SWIFT, KOTLIN, NODE, REACT. THAT’S
           EVERYTHING YOU NEED!
         </p>

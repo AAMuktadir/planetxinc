@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function BiggerBetter() {
   return (
     <>
-      <div className="bg-background py-16 px-40">
+      <div className="bg-background py-16 px-4 sm:px-40">
         <p className="text-white text-sm text-center">
           Planet X Inc is a complete solutions provider that provides technology
           integrated end-to-end impact oriented and data driven organisational
@@ -45,7 +45,7 @@ export default function BiggerBetter() {
             </p>
           </span>
         </div>
-        <h2 className="text-9xl font-extrabold text-footer tracking-wider text-center">
+        <h2 className="text-6xl sm:text-9xl font-extrabold text-footer tracking-wider text-center">
           BETTER
         </h2>
         <div className="w-full flex items-center justify-center pt-8">
