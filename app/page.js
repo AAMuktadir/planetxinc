@@ -6,6 +6,7 @@ import BiggerBetter from "@/Components/home/biggerBetter";
 import CreativeDesign from "@/Components/home/creativeDesign";
 import SmartDevelopment from "@/Components/home/smartDevelopment";
 import BrandIdentities from "@/Components/home/brandIdentities";
+import ArtDirection from "@/Components/home/artDirection";
 
 export default function Home() {
   const [banner, setbanner] = useState(true);
@@ -18,6 +19,7 @@ export default function Home() {
         <CreativeDesign />
         <SmartDevelopment />
         <BrandIdentities />
+        <ArtDirection />
       </div>
     </main>
   );
