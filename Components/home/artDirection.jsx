@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function SmartDevelopment() {
+export default function ArtDirection() {
   return (
     <>
       <div className="bg-background py-20">
