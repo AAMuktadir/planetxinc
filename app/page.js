@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import { useState } from "react";
 import HeroSection from "@/Components/home/heroSection";
 import BiggerBetter from "@/Components/home/biggerBetter";
@@ -7,6 +6,8 @@ import CreativeDesign from "@/Components/home/creativeDesign";
 import SmartDevelopment from "@/Components/home/smartDevelopment";
 import BrandIdentities from "@/Components/home/brandIdentities";
 import ArtDirection from "@/Components/home/artDirection";
+import InHouseSolutions from "@/Components/home/inHouseSolutions";
+import CoolestProjects from "@/Components/home/coolestProjects";
 
 export default function Home() {
   const [banner, setbanner] = useState(true);
@@ -20,6 +21,8 @@ export default function Home() {
         <SmartDevelopment />
         <BrandIdentities />
         <ArtDirection />
+        <InHouseSolutions />
+        <CoolestProjects />
       </div>
     </main>
   );
