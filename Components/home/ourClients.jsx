@@ -12,7 +12,7 @@ export default function OurClients() {
             CLIENTS
           </h3>
 
-          <p className="sm:w-[450px]">
+          <p className="sm:w-[450px] pt-8 sm:pt-0">
             We have developed digital marketing strategies, designed websites,
             and created content to engage customers for a number of small to
             medium-sized businesses.
