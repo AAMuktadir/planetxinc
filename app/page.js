@@ -10,6 +10,7 @@ import InHouseSolutions from "@/Components/home/inHouseSolutions";
 import CoolestProjects from "@/Components/home/coolestProjects";
 import DevelopmentTools from "@/Components/home/developmentTools";
 import { HelloSparkles } from "@/Components/home/helloComponent";
+import OurClients from "@/Components/home/ourClients";
 
 export default function Home() {
   const [banner, setbanner] = useState(true);
@@ -27,6 +28,7 @@ export default function Home() {
         <CoolestProjects />
         <DevelopmentTools />
         <HelloSparkles />
+        <OurClients />
       </div>
     </main>
   );
