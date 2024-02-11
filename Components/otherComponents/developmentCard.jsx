@@ -7,13 +7,13 @@ export default function DevelopmentCard() {
     <>
       <div className="grid grid-cols-2 gap-x-4 gap-y-8 px-36">
         {devCardInfo.map((card, id) => (
-          <div className="relative" key={card.id}>
+          <div className="relative hover:scale-105 duration-500" key={card.id}>
             <Image
               src={card.background}
               height={300}
               width={500}
               alt="image"
-              className=" rounded-2xl"
+              className="rounded-2xl "
             />
             <section className="absolute inset-0 flex">
               <div className="w-2/3 pl-12">
