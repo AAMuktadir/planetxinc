@@ -1,4 +1,4 @@
-export const info = [
+export const devCardInfo = [
   {
     id: 1,
     title: "Mobile Development",
