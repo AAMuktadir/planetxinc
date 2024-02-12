@@ -29,7 +29,7 @@ export default function CoolestProjects() {
       </div>
       <div className="bg-background py-16 px-4">
         <section className="bg-[url('/image/ProjectCase2.jpeg')] bg-cover bg-no-repeat bg-center h-full w-full py-20 sm:py-40 rounded-t-3xl">
-          <Marquee autoFill={true}>
+          <Marquee direction="right" autoFill={true}>
             <p className="flex gap-4 items-center justify-center text-4xl sm:text-9xl text-white">
               View case
               <Image
