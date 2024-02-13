@@ -13,7 +13,7 @@ export default function SmartDevelopmentAnimation() {
       </div> */}
 
       <div className="flex items-center justify-center">
-        <Spline scene="https://prod.spline.design/aMKTH56nvTGLp48C/scene.splinecode" />
+        <Spline scene="https://prod.spline.design/ooQyfzKBciGmqVyR/scene.splinecode" />
       </div>
     </>
   );
