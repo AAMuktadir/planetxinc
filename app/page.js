@@ -12,6 +12,7 @@ import DevelopmentTools from "@/Components/home/developmentTools";
 import { HelloSparkles } from "@/Components/home/helloComponent";
 import OurClients from "@/Components/home/ourClients";
 import LatestUpdates from "@/Components/home/latestUpdates";
+import MyExamplePage from "@/Components/otherComponents/animation/smartDevelopmentAnimation";
 
 export default function Home() {
   const [banner, setbanner] = useState(true);

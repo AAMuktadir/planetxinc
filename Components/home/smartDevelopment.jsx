@@ -1,4 +1,5 @@
 import React from "react";
+import SmartDevelopmentAnimation from "../otherComponents/animation/smartDevelopmentAnimation";
 
 export default function SmartDevelopment() {
   return (
@@ -8,12 +9,8 @@ export default function SmartDevelopment() {
           <h3 className="text-white text-4xl sm:text-8xl">SMART DEVELOPMENT</h3>
         </section>
 
-        <section className="px-4 sm:px-20 py-20">
-          <div className="border-0 rounded-full w-full bg-darkBG py-40">
-            <h4 className="text-white font-bold text-sm sm:text-4xl text-center">
-              Animation of BORI will be placed here
-            </h4>
-          </div>
+        <section className="px-4 sm:px-20">
+          <SmartDevelopmentAnimation />
         </section>
 
         <section className="border-t border-white flex justify-center items-center pb-12">

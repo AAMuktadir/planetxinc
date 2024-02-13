@@ -20,7 +20,12 @@ export default function OurClients() {
         </section>
 
         <section className="border-t border-black py-20">
-          <Marquee autoFill={true} direction="right" className="">
+          <Marquee
+            pauseOnHover={true}
+            autoFill={true}
+            direction="right"
+            className=""
+          >
             <div className="pl-10 flex gap-10 items-center justify-center">
               <Image
                 src={"/image/ourClients/burgerKing.png"}
