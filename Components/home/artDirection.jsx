@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import ArtDirerctionAnimation from "../otherComponents/animation/artDirection";
 
 export default function ArtDirection() {
   return (
@@ -12,15 +13,10 @@ export default function ArtDirection() {
           </h3>
         </section>
 
-        <section className="px-4 sm:px-20 py-12 sm:py-20">
-          <div className="border-0 rounded-full w-full bg-white py-8 sm:py-16 flex items-center justify-center">
-            <Image
-              src={"/image/CreativeDesign.png"}
-              width={300}
-              height={300}
-              alt="vector"
-            />
-          </div>
+        <section className="">
+          {/* <div className="flex items-center justify-center">
+            <ArtDirerctionAnimation />
+          </div> */}
         </section>
 
         <section className="border-t border-black flex justify-center items-center pb-12">

@@ -1,19 +1,20 @@
+"use client";
 import React from "react";
 import Image from "next/image";
+import TextGenerateEffect from "../ui/text-generate-effect";
 
 export default function BiggerBetter() {
   return (
     <>
-      <div className="bg-background py-16 px-4 sm:px-40">
-        <p className="text-white text-sm text-center">
-          Planet X Inc is a complete solutions provider that provides technology
-          integrated end-to-end impact oriented and data driven organisational
-          solutions. Taking a needs based approach, the company designs
-          technology that augments business and organisational performances.
-          Having provided solutions to various organisations, it has recently
-          started expanding its reach by designing technological solutions to
-          address community societal issues.
-        </p>
+      <div className="bg-background py-16 px-4 sm:px-40 text">
+        <div className="text-center">
+          <TextGenerateEffect
+            words={
+              "Planet X Inc is a complete solutions provider that provides technology integrated end-to-end impact oriented and data driven organisational solutions. Taking a needs based approach, the company designs technology that augments business and organisational performances. Having provided solutions to various organisations, it has recently started expanding its reach by designing technological solutions to address community societal issues."
+            }
+          />
+        </div>
+
         <div className="py-20 ">
           <section className="flex items-center justify-end">
             <Image

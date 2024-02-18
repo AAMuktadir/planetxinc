@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Spline from "@splinetool/react-spline";
 
 export default function HeroSection() {
   return (
@@ -15,13 +16,14 @@ export default function HeroSection() {
           <h2 className="py-2">DIGITAL</h2>
           <h2>_SOLUTIONS</h2>
         </div>
-        <div className="sm:pt-20">
-          <Image
+        <div className="">
+          <Spline scene="https://prod.spline.design/ooQyfzKBciGmqVyR/scene.splinecode" />
+          {/* <Image
             src={"/image/heroVector.png"}
             width={1500}
             height={800}
             alt={"vector"}
-          />
+          /> */}
         </div>
       </section>
     </>
