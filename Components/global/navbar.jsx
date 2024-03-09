@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
 import { AiOutlineMenu } from "react-icons/ai";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger } from "@/Components/ui/sheet";
+
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 
