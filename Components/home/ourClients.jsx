@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 export default function OurClients() {
   return (
     <>
-      <div className="bg-whiteBG ">
+      <div className="bg-whiteBG " id="our-client">
         <section className="pl-4 sm:pl-28 pr-4 sm:pr-20 sm:flex items-end justify-between py-20">
           <h3 className="text-5xl sm:text-8xl">
             OUR <br />
