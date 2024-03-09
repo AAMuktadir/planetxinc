@@ -6,9 +6,7 @@ import { X } from "lucide-react";
 import { cn } from "@/utils/cn";
 
 const Sheet = SheetPrimitive.Root;
-
 const SheetTrigger = SheetPrimitive.Trigger;
-
 const SheetClose = SheetPrimitive.Close;
 
 const SheetPortal = ({ className, ...props }) => (
