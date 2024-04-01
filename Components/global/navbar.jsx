@@ -46,7 +46,7 @@ export default function Navbar() {
               Services
             </Link>
             <Link
-              href={"/#our-client"}
+              href={"/our-clients"}
               className="text-xl sm:text-2xl hover:text-white cursor-pointer"
             >
               Clients

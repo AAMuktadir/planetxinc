@@ -2,3 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+.swiper-button-prev {
+  color: #000000 !important;
+}
+
+.swiper-button-prev:after {
+  content: "\2190" !important;
+  display: none !important;
+}
+
+.swiper-button-next {
+  color: #000000 !important;
+}
+
+.swiper-button-next:after {
+  content: "\2192" !important;
+}
