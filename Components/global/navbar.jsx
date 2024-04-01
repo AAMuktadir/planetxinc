@@ -26,7 +26,7 @@ export default function Navbar() {
             </Link>
 
             <Link
-              href={"/#our-client"}
+              href={"about-us"}
               className="text-xl sm:text-2xl hover:text-white cursor-pointer"
             >
               About

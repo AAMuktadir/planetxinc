@@ -9,10 +9,10 @@ export default function CreativeDesign() {
           <h3 className="text-6xl sm:text-8xl">CREATIVE DESIGN</h3>
           <div className="pt-8 sm:pt-0">
             <Image
-              src={"/image/CreativeDesign.png"}
+              src={"/image/creativeDesign2.png"}
               width={500}
               height={500}
-              alt="vector"
+              alt="img"
             />
           </div>
         </section>

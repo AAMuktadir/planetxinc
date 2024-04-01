@@ -27,7 +27,7 @@ export default function CoolestProjects() {
           </section>
         </div>
       </div>
-      <div className="bg-background py-16 px-4">
+      {/* <div className="bg-background py-16 px-4">
         <section className="bg-[url('/image/ProjectCase2.jpeg')] bg-cover bg-no-repeat bg-center h-full w-full py-20 sm:py-40 rounded-t-3xl">
           <Marquee direction="right" autoFill={true}>
             <p className="flex gap-4 items-center justify-center text-4xl sm:text-9xl text-white">
@@ -41,7 +41,7 @@ export default function CoolestProjects() {
             </p>
           </Marquee>
         </section>
-      </div>
+      </div> */}
 
       <div className="bg-background py-16 flex items-center justify-end sm:pr-20 border-b border-white px-4 sm:px-0">
         <p className="text-footer -skew-x-12 sm:w-80">

@@ -14,7 +14,7 @@ import { SiRedis } from "react-icons/si";
 export default function DevelopmentTools() {
   return (
     <>
-      <div className="bg-background py-20">
+      <div className="bg-background pt-20">
         <div className="">
           <Marquee autoFill={true}>
             <div className="flex gap-32 items-center justify-center text-white text-5xl pr-32 py-2">

@@ -1,5 +1,5 @@
 import React from "react";
-import SmartDevelopmentAnimation from "../otherComponents/animation/smartDevelopmentAnimation";
+import Image from "next/image";
 
 export default function SmartDevelopment() {
   return (
@@ -9,8 +9,16 @@ export default function SmartDevelopment() {
           <h3 className="text-white text-4xl sm:text-8xl">SMART DEVELOPMENT</h3>
         </section>
 
-        <section className="px-4 sm:px-20">
-          <SmartDevelopmentAnimation />
+        <section className="px-4 sm:px-12 py-4 sm:py-20">
+          <div className="bg-[#1B1B1B] rounded-full flex items-center justify-center">
+            <Image
+              src={"/image/smartDevelopment.png"}
+              height={500}
+              width={500}
+              alt="image"
+              className="py-2 sm:py-8"
+            />
+          </div>
         </section>
 
         <section className="border-t border-white flex justify-center items-center pb-12">

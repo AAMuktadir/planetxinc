@@ -13,10 +13,16 @@ export default function ArtDirection() {
           </h3>
         </section>
 
-        <section className="">
-          {/* <div className="flex items-center justify-center">
-            <ArtDirerctionAnimation />
-          </div> */}
+        <section className="px-4 sm:px-12 py-4 sm:py-20">
+          <div className="bg-white rounded-full flex items-center justify-center">
+            <Image
+              src={"/image/artDirection.png"}
+              height={500}
+              width={500}
+              alt="image"
+              className="py-2 sm:py-8"
+            />
+          </div>
         </section>
 
         <section className="border-t border-black flex justify-center items-center pb-12">
