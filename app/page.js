@@ -10,7 +10,7 @@ import InHouseSolutions from "@/Components/home/inHouseSolutions";
 import CoolestProjects from "@/Components/home/coolestProjects";
 import DevelopmentTools from "@/Components/home/developmentTools";
 import { HelloSparkles } from "@/Components/home/helloComponent";
-import OurClients from "@/Components/home/ourClients";
+// import OurClients from "@/Components/home/ourClients";
 import LatestUpdates from "@/Components/home/latestUpdates";
 import MyExamplePage from "@/Components/otherComponents/animation/smartDevelopmentAnimation";
 
@@ -31,7 +31,7 @@ export default function Home() {
         <DevelopmentTools />
 
         <LatestUpdates />
-        <OurClients />
+        {/* <OurClients /> */}
         <HelloSparkles />
       </div>
     </main>

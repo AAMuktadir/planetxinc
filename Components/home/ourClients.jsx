@@ -5,21 +5,19 @@ import Marquee from "react-fast-marquee";
 export default function OurClients() {
   return (
     <>
-      <div className="bg-background text-white" id="our-client">
-        <section className="pl-4 sm:pl-28 pr-4 sm:pr-20 sm:flex items-end justify-between py-20 ">
-          <h3 className="text-5xl sm:text-8xl">
-            OUR <br />
-            CLIENTS
+      <div className="bg-background h-full pt-0">
+        <div className=" px-4 sm:px-32">
+          <h3 className="text-4xl sm:text-7xl text-white lowercase font-semibold">
+            our clients
           </h3>
-
-          <p className="sm:w-[450px] pt-8 sm:pt-0">
+          <p className="text-white text-xl sm:text-sm py-8">
             We have developed digital marketing strategies, designed websites,
             and created content to engage customers for a number of small to
             medium-sized businesses.
           </p>
-        </section>
+        </div>
 
-        <section className="border-t border-white py-20">
+        <section className="border-t border-white py-20 ">
           <Marquee
             pauseOnHover={true}
             autoFill={true}
