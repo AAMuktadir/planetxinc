@@ -33,7 +33,7 @@ export default function Navbar() {
             </Link>
 
             <Link
-              href={"/#our-client"}
+              href={"/our-products"}
               className="text-xl sm:text-2xl hover:text-white cursor-pointer"
             >
               Products
@@ -52,7 +52,7 @@ export default function Navbar() {
               Clients
             </Link>
             <Link
-              href={"/#our-client"}
+              href={"/contact-us"}
               className="text-xl sm:text-2xl hover:text-white cursor-pointer"
             >
               Contact
