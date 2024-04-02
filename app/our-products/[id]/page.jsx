@@ -10,14 +10,14 @@ export default async function page({ params }) {
     <div className="bg-background">
       <Header />
       <div className="flex flex-col items-center justify-center w-full">
-        <h2 className="text-2xl sm:text-4xl text-center text-white bg-darkBG w-full py-8">
+        <h2 className="text-4xl sm:text-7xl font-semibold text-center text-white bg-darkBG w-full py-8">
           {oneProduct.title}
         </h2>
 
         <Image
           src={oneProduct.image}
-          height={500}
-          width={500}
+          height={700}
+          width={700}
           alt="img"
           className="py-10"
         />

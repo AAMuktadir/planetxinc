@@ -1,6 +1,7 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function CoolestProjects() {
   return (
@@ -13,17 +14,19 @@ export default function CoolestProjects() {
         </section>
         <div className="px-4">
           <section className="bg-[url('/image/ProjectCase1.jpeg')] bg-cover bg-no-repeat bg-center h-full w-full py-20 sm:py-40 rounded-t-3xl">
-            <Marquee autoFill={true}>
-              <p className="flex gap-4 items-center justify-center text-5xl sm:text-9xl text-white">
-                View case
-                <Image
-                  src={"/image/caseIcon.png"}
-                  width={150}
-                  height={150}
-                  alt="icon"
-                />
-              </p>
-            </Marquee>
+            <Link href={"/our-products"}>
+              <Marquee autoFill={true}>
+                <p className="flex gap-4 items-center justify-center text-5xl sm:text-9xl text-white">
+                  View case
+                  <Image
+                    src={"/image/caseIcon.png"}
+                    width={150}
+                    height={150}
+                    alt="icon"
+                  />
+                </p>
+              </Marquee>
+            </Link>
           </section>
         </div>
       </div>

@@ -7,8 +7,8 @@ export default function OurClients() {
     <>
       <div className="bg-background h-full pt-0">
         <div className=" px-4 sm:px-32">
-          <h3 className="text-4xl sm:text-7xl text-white lowercase font-semibold">
-            our clients
+          <h3 className="text-4xl sm:text-7xl text-white font-semibold">
+            Our Clients
           </h3>
           <p className="text-white text-xl sm:text-sm py-8">
             We have developed digital marketing strategies, designed websites,

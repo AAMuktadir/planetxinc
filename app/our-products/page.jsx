@@ -10,7 +10,7 @@ export default function page() {
         <section className="">
           <Header />
         </section>
-        <h3 className="text-xl sm:text-5xl font-medium text-center pt-12">
+        <h3 className="text-4xl sm:text-7xl font-semibold text-center pt-12">
           Our Products
         </h3>
         <section className="sm:flex justify-center py-0 sm:py-8">

@@ -10,7 +10,7 @@ export default function page() {
       <div className="">
         <Header />
         <div className="bg-background pt-0 sm:pt-32 h-full px-4 sm:px-32">
-          <h3 className="text-4xl sm:text-7xl text-white lowercase font-semibold">
+          <h3 className="text-4xl sm:text-7xl text-white font-semibold">
             Planet X Inc is a complete solutions provider
           </h3>
           <p className="text-white text-xl sm:text-sm py-8">
