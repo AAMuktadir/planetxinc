@@ -40,7 +40,7 @@ export default function Footer() {
             </Link>
           </span>
         </div>
-        <div className="text-center">
+        <div className="text-center text-sm sm:text-lg px-4">
           <p>
             Ground Floor, House 7, Road 4, Gulshan 1, Dhaka 1213, Bangladesh
           </p>

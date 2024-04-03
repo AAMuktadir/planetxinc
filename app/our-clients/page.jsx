@@ -8,7 +8,7 @@ export default function page() {
   return (
     <div className="">
       <Header />
-      <div className="pt-4 sm:pt-20 bg-background">
+      <div className="pt-8 bg-background">
         <OurClients />
       </div>
       <div className="">

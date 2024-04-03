@@ -13,13 +13,12 @@ export default async function page({ params }) {
         <h2 className="text-4xl sm:text-7xl font-semibold text-center text-white bg-darkBG w-full py-8">
           {oneProduct.title}
         </h2>
-
         <Image
           src={oneProduct.image}
           height={700}
           width={700}
           alt="img"
-          className="py-10"
+          className="py-10 px-8"
         />
       </div>
       <div className="px-4 sm:px-20 py-10 text-white">

@@ -9,9 +9,7 @@ export default function Header() {
       <Link href={"/"}>
         <Image src={"/Global/Logo.png"} width={90} height={50} alt={"logo"} />
       </Link>
-      <h2 className="text-center px-0 sm:px-20 uppercase text-white">
-        Hello, this website is under construction
-      </h2>
+
       <div className="">
         <Navbar />
       </div>

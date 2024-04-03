@@ -7,7 +7,7 @@ export default function page() {
     <>
       <div className="bg-background text-white">
         <Header />
-        <div className="py-20">
+        <div className="py-12">
           <ServicesItems />
         </div>
       </div>

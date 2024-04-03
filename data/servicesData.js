@@ -163,17 +163,17 @@ export const servicesData = [
     featureData: [
       {
         id: 1,
-        url: "/public/image/services/Features/businessFormation/companyincorporation.svg",
+        url: "/image/services/Features/businessFormation/companyincorporation.svg",
         title: "Company Incorporation",
       },
       {
         id: 2,
-        url: "/public/image/services/Features/businessFormation/tradelicence.svg",
+        url: "/image/services/Features/businessFormation/tradelicence.svg",
         title: "Trade Licence",
       },
       {
         id: 3,
-        url: "/public/image/services/Features/businessFormation/vat.svg",
+        url: "/image/services/Features/businessFormation/vat.svg",
         title: "VAT",
       },
     ],

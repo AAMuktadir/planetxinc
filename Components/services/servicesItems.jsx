@@ -7,76 +7,82 @@ export default function ServicesItems() {
   const [selectedItem, setSelectedItem] = useState("IT");
   const singleItem = servicesData.find((item) => item.idx == selectedItem);
 
-  //   const itemHandler = (key) => {
-  //     if (key == "IT") {
-  //       setSelectedImage("/image/services/it_solution.jpeg");
-  //       setSelectedItem("IT");
-  //     } else if (key == "M") {
-  //       setSelectedImage("/image/services/marketing.jpeg");
-  //       setSelectedItem("M");
-  //     } else if (key == "ID") {
-  //       setSelectedImage("/image/services/interior_design.jpeg");
-  //       setSelectedItem("ID");
-  //     } else if (key == "BF") {
-  //       setSelectedImage("/image/services/business_formation.jpeg");
-  //       setSelectedItem("BF");
-  //     } else if (key == "EM") {
-  //       setSelectedImage("/image/services/event_management.jpeg");
-  //       setSelectedItem("EM");
-  //     }
-  //   };
-
   const imgSource = () => {
     return singleItem.image;
   };
   return (
     <>
-      <div className="sm:flex px-20 gap-12">
-        <div className="sm:w-1/2">
-          <Image src={imgSource()} height={500} width={500} alt="img" />
-        </div>
+      <div className="px-4 sm:px-20">
+        <h2 className="text-sm sm:text-xl pb-8">
+          {singleItem.shortDescription}
+        </h2>
+        <div className="sm:flex gap-12">
+          <div className="sm:w-1/2">
+            <Image src={imgSource()} height={500} width={500} alt="img" />
+          </div>
 
-        <div className="">
-          <p
-            className={`text-xl cursor-pointer ${
-              selectedItem === "IT" ? "bg-footer" : ""
-            }`}
-            onClick={() => setSelectedItem("IT")}
-          >
-            IT Solution
-          </p>
-          <p
-            className={`text-xl cursor-pointer ${
-              selectedItem === "M" ? "bg-footer" : ""
-            }`}
-            onClick={() => setSelectedItem("M")}
-          >
-            Marketing
-          </p>
-          <p
-            className={`text-xl cursor-pointer ${
-              selectedItem === "ID" ? "bg-footer" : ""
-            }`}
-            onClick={() => setSelectedItem("ID")}
-          >
-            Interior Design
-          </p>
-          <p
-            className={`text-xl cursor-pointer ${
-              selectedItem === "BF" ? "bg-footer" : ""
-            }`}
-            onClick={() => setSelectedItem("BF")}
-          >
-            Business Formation
-          </p>
-          <p
-            className={`text-xl cursor-pointer ${
-              selectedItem === "EM" ? "bg-footer" : ""
-            }`}
-            onClick={() => setSelectedItem("EM")}
-          >
-            Event Management
-          </p>
+          <div className="pt-8 sm:pt-0 text-sm sm:text-xl">
+            <p
+              className={`cursor-pointer p-2 ${
+                selectedItem === "IT" ? "bg-footer text-darkBG" : ""
+              }`}
+              onClick={() => setSelectedItem("IT")}
+            >
+              IT Solution
+            </p>
+            <p
+              className={`cursor-pointer p-2 ${
+                selectedItem === "M" ? "bg-footer text-darkBG" : ""
+              }`}
+              onClick={() => setSelectedItem("M")}
+            >
+              Marketing
+            </p>
+            <p
+              className={`cursor-pointer p-2 ${
+                selectedItem === "ID" ? "bg-footer text-darkBG" : ""
+              }`}
+              onClick={() => setSelectedItem("ID")}
+            >
+              Interior Design
+            </p>
+            <p
+              className={`cursor-pointer p-2 ${
+                selectedItem === "BF" ? "bg-footer text-darkBG" : ""
+              }`}
+              onClick={() => setSelectedItem("BF")}
+            >
+              Business Formation
+            </p>
+            <p
+              className={`cursor-pointer p-2 ${
+                selectedItem === "EM" ? "bg-footer text-darkBG" : ""
+              }`}
+              onClick={() => setSelectedItem("EM")}
+            >
+              Event Management
+            </p>
+          </div>
+        </div>
+        <div className="pt-20">{singleItem.featureTitle}</div>
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-4 gap-10 md:mx-0 mx-5">
+          {singleItem.featureData.map((feature) => (
+            <div className="col-span-1 flex flex-row" key={feature.id}>
+              <div className="bg-footer p-3 w-1/4 flex items-center justify-center">
+                <Image
+                  src={feature.url}
+                  width={50}
+                  height={50}
+                  alt="feature icon"
+                />
+              </div>
+              <div className="bg-whiteBG w-3/4 flex items-center justify-center">
+                <span className="text-center text-darkBG text-sm">
+                  {feature.title}
+                </span>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </>
