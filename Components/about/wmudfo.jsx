@@ -11,7 +11,7 @@ export default function WhatMakesUsDifferent() {
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-12 sm:gap-20">
         {wmudfoData.map((data, id) => (
           <div
-            className="bg-gray-200 rounded-2xl p-4 h-60 text-center text-darkBG drop-shadow-2xl shadow-black px-8 hover:-skew-y-6 hover:text-whiteBG hover:bg-darkBG duration-300"
+            className="hover:bg-footer rounded-2xl p-4 h-60 text-center hover:text-black drop-shadow-2xl shadow-black px-8 -skew-y-6 hover:skew-y-0 text-whiteBG bg-darkBG duration-300"
             key={data.id}
           >
             <h2 className="text-lg sm:text-xl font-medium">{data.title}</h2>
@@ -20,5 +20,6 @@ export default function WhatMakesUsDifferent() {
         ))}
       </div>
     </div>
+    // bg-gray-200 rounded-2xl p-4 h-60 text-center text-darkBG drop-shadow-2xl shadow-black px-8 hover:-skew-y-6 hover:text-whiteBG hover:bg-darkBG duration-300
   );
 }
