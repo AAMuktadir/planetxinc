@@ -40,7 +40,7 @@ export default function Navbar() {
             </Link>
 
             <Link
-              href={"/#our-client"}
+              href={"/services"}
               className="text-xl sm:text-2xl hover:text-white cursor-pointer"
             >
               Services

@@ -8,14 +8,14 @@ export default function WhatMakesUsDifferent() {
         What makes us
         <br /> different from others
       </h4>
-      <div className="sm:grid grid-cols-3 gap-12">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-12 sm:gap-20">
         {wmudfoData.map((data, id) => (
           <div
-            className="bg-gray-200 rounded-2xl p-4 h-80 text-center"
+            className="bg-gray-200 rounded-2xl p-4 h-60 text-center text-darkBG drop-shadow-2xl shadow-black px-8 hover:-skew-y-6 hover:text-whiteBG hover:bg-darkBG duration-300"
             key={data.id}
           >
             <h2 className="text-lg sm:text-xl font-medium">{data.title}</h2>
-            <p className="text-sm sm:text-lg pt-4">{data.description}</p>
+            <p className="text-sm sm:text-sm pt-4">{data.description}</p>
           </div>
         ))}
       </div>

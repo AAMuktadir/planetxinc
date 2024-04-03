@@ -9,7 +9,7 @@ export default function page() {
     <>
       <div className="bg-background">
         <Header />
-        <div className=" pt-52 pb-52">
+        <div className="py-40">
           <p className="flex items-center justify-center text-[18px] sm:text-[22px] uppercase text-white pt-2 font-light">
             <span className="border-t border-footer h-0 w-12 mr-2"></span>
             get in touch
