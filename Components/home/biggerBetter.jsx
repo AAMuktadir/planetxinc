@@ -7,7 +7,7 @@ export default function BiggerBetter() {
   return (
     <>
       <div className="bg-background py-16 px-4 sm:px-40 text">
-        <div className="text-center">
+        <div className="text-left sm:text-center">
           <TextGenerateEffect
             words={
               "Planet X Inc is a complete solutions provider that provides technology integrated end-to-end impact oriented and data driven organisational solutions. Taking a needs based approach, the company designs technology that augments business and organisational performances. Having provided solutions to various organisations, it has recently started expanding its reach by designing technological solutions to address community societal issues."

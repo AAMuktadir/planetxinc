@@ -9,7 +9,7 @@ export default function InHouseSolutions() {
           <h3 className="text-5xl sm:text-8xl pt-20 sm:translate-x-28">
             WE BUILD A STABLE CODE USING IN-HOUSE SOLUTIONS
           </h3>
-          <div className="">
+          <div className="pt-12 sm:pt-0">
             <Image
               src={"/image/inhouseDevelopment.png"}
               width={2500}
@@ -18,7 +18,7 @@ export default function InHouseSolutions() {
             />
           </div>
         </section>
-        <section className="flex items-center justify-end pt-40 sm:pr-20 pb-20 w-full">
+        <section className="flex items-center justify-end pt-12 sm:pt-40 sm:pr-20 pb-20 w-full">
           <p className="px-4 sm:px-0 sm:w-[450px]">
             Developing digital products since 2010. We help bring ideas to life
             and create digital products that work
