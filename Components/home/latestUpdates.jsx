@@ -4,7 +4,7 @@ import { FaAngleRight } from "react-icons/fa6";
 export default function LatestUpdates() {
   return (
     <>
-      <div className="bg-background py-20 text-white">
+      <div className="bg-background pb-20 text-white">
         <div className="flex flex-col gap-8 items-center">
           <h4 className="uppercase text-[12px] font-medium">Newsletter</h4>
           <h4 className="text-3xl sm:text-4xl text-center">
