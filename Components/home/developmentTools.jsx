@@ -17,9 +17,9 @@ export default function DevelopmentTools() {
       <div className="bg-background pt-20">
         <div className="">
           <Marquee autoFill={true}>
-            <div className="flex gap-32 items-center justify-center text-white text-5xl pr-32 py-2">
-              <div className="text-3xl text-black">
-                <p className="bg-[#5FECC8] px-6 py-2 rounded-full uppercase">
+            <div className="flex gap-12 sm:gap-32 items-center justify-center text-white text-2xl sm:text-5xl pr-12 sm:pr-32 py-2">
+              <div className="text-xl sm:text-3xl text-black">
+                <p className="bg-[#5FECC8] px-4 sm:px-6 py-1 sm:py-2 rounded-full uppercase">
                   Mobile
                 </p>
               </div>
@@ -45,9 +45,9 @@ export default function DevelopmentTools() {
             </div>
           </Marquee>
           <Marquee direction="right" className="pt-20">
-            <div className="flex gap-32 items-center justify-center text-white text-5xl py-2 pr-32">
-              <div className="text-3xl text-black">
-                <p className="bg-[#5FECC8] px-6 py-2 rounded-full uppercase">
+            <div className="flex gap-12 sm:gap-32 items-center justify-center text-white text-2xl sm:text-5xl py-2 pr-12 sm:pr-32">
+              <div className="text-xl sm:text-3xl text-black">
+                <p className="bg-[#5FECC8] px-4 sm:px-6 py-1 sm:py-2 rounded-full uppercase">
                   Web
                 </p>
               </div>

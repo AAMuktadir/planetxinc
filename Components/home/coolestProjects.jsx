@@ -17,7 +17,7 @@ export default function CoolestProjects() {
             <Link href={"/our-products"}>
               <Marquee autoFill={true}>
                 <p className="flex gap-4 items-center justify-center text-5xl sm:text-9xl text-white">
-                  View case
+                  Our Products
                   <Image
                     src={"/image/caseIcon.png"}
                     width={150}

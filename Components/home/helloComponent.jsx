@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import { SparklesCore } from "../ui/sparkles";
 
@@ -16,11 +15,11 @@ export function HelloSparkles() {
           particleColor="#FFFFFF"
         />
       </div>
-      <p className="text-white pt-20">
+      <section className="text-white pt-20">
         <button className="border-2 border-white px-4 sm:px-8 py-0 sm:py-1 rounded-full uppercase">
           Start a project with us
         </button>
-      </p>
+      </section>
       <h1 className="md:text-7xl text-8xl lg:text-[250px] font-medium text-center text-white relative z-20 pt-20 sm:pt-0">
         HELLO
       </h1>
