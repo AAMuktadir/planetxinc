@@ -1,5 +1,6 @@
 import React from "react";
 import { SparklesCore } from "../ui/sparkles";
+import HelloClickable from "./helloClickable";
 
 export function HelloSparkles() {
   return (
@@ -16,9 +17,10 @@ export function HelloSparkles() {
         />
       </div>
       <section className="text-white pt-20">
-        <button className="border-2 border-white px-4 sm:px-8 py-0 sm:py-1 rounded-full uppercase">
-          Start a project with us
-        </button>
+        {/* <button className="border-2 border-white px-4 sm:px-8 py-0 sm:py-1 rounded-full uppercase">
+          <HelloClickable /> Start a project with us
+        </button> */}
+        <HelloClickable />
       </section>
       <h1 className="md:text-7xl text-8xl lg:text-[250px] font-medium text-center text-white relative z-20 pt-20 sm:pt-0">
         HELLO

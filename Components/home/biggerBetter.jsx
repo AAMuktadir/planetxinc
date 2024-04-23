@@ -6,7 +6,7 @@ import TextGenerateEffect from "../ui/text-generate-effect";
 export default function BiggerBetter() {
   return (
     <>
-      <div className="bg-background py-16 px-4 sm:px-40 text">
+      <div className="bg-black py-16 px-4 sm:px-40 text">
         <div className="text-left sm:text-center">
           <TextGenerateEffect
             words={
