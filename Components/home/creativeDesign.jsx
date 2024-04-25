@@ -8,12 +8,20 @@ export default function CreativeDesign() {
         <section className="sm:flex items-center justify-between">
           <h3 className="text-6xl sm:text-8xl">CREATIVE DESIGN</h3>
           <div className="pt-8 sm:pt-0">
-            <Image
+            {/* <Image
               src={"/image/creativeDesign2.png"}
               width={500}
               height={500}
               alt="img"
-            />
+            /> */}
+
+            <video width="500" height="500" autoPlay loop muted className="">
+              <source
+                src="/image/anim/creativeDesignAnim.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </section>
       </div>

@@ -9,7 +9,7 @@ export default function page() {
     <>
       <div className="">
         <Header />
-        <div className="bg-background pt-8 h-full px-4 sm:px-32">
+        <div className="bg-black pt-8 h-full px-4 sm:px-32">
           <h3 className="text-4xl sm:text-7xl text-white font-semibold">
             Planet X Inc is a complete solutions provider
           </h3>
@@ -27,13 +27,18 @@ export default function page() {
               <h3 className="text-white uppercase text-xl sm:text-5xl text-left font-medium pt-2 sm:pt-8">
                 Success Stories
               </h3>
-              <Image
+              {/* <Image
                 src={"/image/SuccesStories.png"}
                 height={400}
                 width={400}
                 alt="image"
                 className="py-8"
-              />
+              /> */}
+
+              <video width="400" height="400" autoPlay loop muted className="">
+                <source src="/image/anim/aboutAnim.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
             <div className="text-white sm:w-1/2">
               <p>

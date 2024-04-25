@@ -15,13 +15,25 @@ export default function ArtDirection() {
 
         <section className="px-4 sm:px-12 py-4 sm:py-20">
           <div className="bg-white rounded-full flex items-center justify-center">
-            <Image
+            {/* <Image
               src={"/image/artDirection.png"}
               height={500}
               width={500}
               alt="image"
               className="py-2 sm:py-8"
-            />
+            /> */}
+
+            <video
+              width="500"
+              height="500"
+              autoPlay
+              loop
+              muted
+              className="py-2 sm:py-8"
+            >
+              <source src="/image/anim/artDirectionAnim.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </section>
 

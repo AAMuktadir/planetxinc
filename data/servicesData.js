@@ -241,4 +241,31 @@ export const servicesData = [
       },
     ],
   },
+
+  {
+    id: 6,
+    title: "Consultation",
+    idx: "CON",
+    image: "/image/services/consultation.jpeg",
+    shortDescription:
+      "At Planet X Inc, we provide management consultation services to improve existing business practices, and advise new start-ups on the most efficient way to kick-off their innovative ventures. ",
+    featureTitle: "Service we provide: ",
+    featureData: [
+      {
+        id: 1,
+        url: "/image/services/Features/managementConsultation/Businessoperations.svg",
+        title: "Business operations improvement",
+      },
+      {
+        id: 2,
+        url: "/image/services/Features/managementConsultation/Start-upManagement.svg",
+        title: "Start-up management advisory services",
+      },
+      {
+        id: 3,
+        url: "/image/services/Features/managementConsultation/HRConsultation.svg",
+        title: "HR consultation",
+      },
+    ],
+  },
 ];

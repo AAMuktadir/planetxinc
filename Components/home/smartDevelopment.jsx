@@ -10,14 +10,28 @@ export default function SmartDevelopment() {
         </section>
 
         <section className="px-4 sm:px-12 py-4 sm:py-20">
-          <div className="bg-[#1B1B1B] rounded-full flex items-center justify-center">
-            <Image
+          <div className="bg-black rounded-full flex items-center justify-center">
+            {/* <Image
               src={"/image/smartDevelopment.png"}
               height={500}
               width={500}
               alt="image"
               className="py-2 sm:py-8"
-            />
+            /> */}
+            <video
+              width="500"
+              height="500"
+              autoPlay
+              loop
+              muted
+              className="py-4 p-12 sm:p-0"
+            >
+              <source
+                src="/image/anim/smartDevelopmentAnim.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </section>
 

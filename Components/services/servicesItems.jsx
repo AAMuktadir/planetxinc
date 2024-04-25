@@ -65,6 +65,17 @@ export default function ServicesItems() {
           >
             Event Management
           </p>
+
+          <p
+            className={`cursor-pointer ${
+              selectedItem === "CON"
+                ? "text-footer"
+                : "hover:text-footer duration-300"
+            }`}
+            onClick={() => setSelectedItem("CON")}
+          >
+            Consultation
+          </p>
         </div>
 
         <div className="pt-12">
