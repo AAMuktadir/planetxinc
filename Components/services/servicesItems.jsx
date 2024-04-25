@@ -45,7 +45,7 @@ export default function ServicesItems() {
           >
             Interior Design
           </p>
-          <p
+          {/* <p
             className={`cursor-pointer ${
               selectedItem === "BF"
                 ? "text-footer"
@@ -54,7 +54,7 @@ export default function ServicesItems() {
             onClick={() => setSelectedItem("BF")}
           >
             Business Formation
-          </p>
+          </p> */}
           <p
             className={`cursor-pointer ${
               selectedItem === "EM"
@@ -74,7 +74,7 @@ export default function ServicesItems() {
             }`}
             onClick={() => setSelectedItem("CON")}
           >
-            Consultation
+            Consultancy
           </p>
         </div>
 

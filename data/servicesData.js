@@ -151,33 +151,33 @@ export const servicesData = [
     ],
   },
 
-  {
-    id: 4,
-    title: "Business Formation",
-    idx: "BF",
-    image: "/image/services/business_formation.jpeg",
-    shortDescription:
-      "A happy company for a happy celebration. The best company for best elevators",
-    featureTitle:
-      "Our professional staff is here to assist you with the creation of any sort of business. We pay attention to the client's needs and provide appropriate guidance. From generating business ideas to guiding you through the whole process of starting and growing a company, we are here to serve you every step of the way.",
-    featureData: [
-      {
-        id: 1,
-        url: "/image/services/Features/businessFormation/companyincorporation.svg",
-        title: "Company Incorporation",
-      },
-      {
-        id: 2,
-        url: "/image/services/Features/businessFormation/tradelicence.svg",
-        title: "Trade Licence",
-      },
-      {
-        id: 3,
-        url: "/image/services/Features/businessFormation/vat.svg",
-        title: "VAT",
-      },
-    ],
-  },
+  // {
+  //   id: 4,
+  //   title: "Business Formation",
+  //   idx: "BF",
+  //   image: "/image/services/business_formation.jpeg",
+  //   shortDescription:
+  //     "A happy company for a happy celebration. The best company for best elevators",
+  //   featureTitle:
+  //     "Our professional staff is here to assist you with the creation of any sort of business. We pay attention to the client's needs and provide appropriate guidance. From generating business ideas to guiding you through the whole process of starting and growing a company, we are here to serve you every step of the way.",
+  //   featureData: [
+  //     {
+  //       id: 1,
+  //       url: "/image/services/Features/businessFormation/companyincorporation.svg",
+  //       title: "Company Incorporation",
+  //     },
+  //     {
+  //       id: 2,
+  //       url: "/image/services/Features/businessFormation/tradelicence.svg",
+  //       title: "Trade Licence",
+  //     },
+  //     {
+  //       id: 3,
+  //       url: "/image/services/Features/businessFormation/vat.svg",
+  //       title: "VAT",
+  //     },
+  //   ],
+  // },
 
   {
     id: 5,
