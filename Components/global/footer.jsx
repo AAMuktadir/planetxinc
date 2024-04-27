@@ -45,7 +45,7 @@ export default function Footer() {
             Ground Floor, House 7, Road 4, Gulshan 1, Dhaka 1213, Bangladesh
           </p>
 
-          <p>Planet X Inc Ltd. © Copyright 2023</p>
+          <p>Planet X Inc Ltd. © Copyright 2024</p>
         </div>
       </div>
     </>

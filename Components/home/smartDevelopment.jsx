@@ -24,7 +24,7 @@ export default function SmartDevelopment() {
               autoPlay
               loop
               muted
-              className="py-4 p-12 sm:p-0"
+              className="py-4 p-16 sm:p-0"
             >
               <source
                 src="/image/anim/smartDevelopmentAnim.mp4"

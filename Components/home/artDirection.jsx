@@ -29,7 +29,7 @@ export default function ArtDirection() {
               autoPlay
               loop
               muted
-              className="py-2 sm:py-8"
+              className="py-4 p-16 sm:p-0 sm:py-8"
             >
               <source src="/image/anim/artDirectionAnim.mp4" type="video/mp4" />
               Your browser does not support the video tag.
